@@ -1,0 +1,7 @@
+<recipeTypes>
+    <type>Breakfast</type>
+    <type>Lunch</type>
+    <type>Dinner</type>
+    <type>Supper</type>
+    <type>Beverage</type>
+</recipeTypes>
