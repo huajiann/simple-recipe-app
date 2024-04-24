@@ -13,12 +13,12 @@
 		CE1D52DD2BD390B1003255CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1D52DB2BD390B1003255CF /* Main.storyboard */; };
 		CE1D52DF2BD390B3003255CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1D52DE2BD390B3003255CF /* Assets.xcassets */; };
 		CE1D52E22BD390B3003255CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1D52E02BD390B3003255CF /* LaunchScreen.storyboard */; };
-		CE39B8532BD398AA00FFEA76 /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39B8522BD398AA00FFEA76 /* AddRecipeViewController.swift */; };
 		CE39B85B2BD40DCF00FFEA76 /* recipetype.xml in Resources */ = {isa = PBXBuildFile; fileRef = CE39B85A2BD40DCF00FFEA76 /* recipetype.xml */; };
 		CE39B85D2BD6A63100FFEA76 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39B85C2BD6A63100FFEA76 /* DataParser.swift */; };
 		CE39B85F2BD6ADBB00FFEA76 /* RecipeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39B85E2BD6ADBB00FFEA76 /* RecipeClass.swift */; };
 		CE39B8622BD6B41300FFEA76 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39B8602BD6B41300FFEA76 /* RecipeTableViewCell.swift */; };
 		CE39B8632BD6B41300FFEA76 /* RecipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE39B8612BD6B41300FFEA76 /* RecipeTableViewCell.xib */; };
+		CE59D5932BD89DE90044C7DA /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE59D5922BD89DE90044C7DA /* AddRecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +30,12 @@
 		CE1D52DE2BD390B3003255CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1D52E12BD390B3003255CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE1D52E32BD390B3003255CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE39B8522BD398AA00FFEA76 /* AddRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddRecipeViewController.swift; path = ../../../../../../../Desktop/Apps/AddRecipeViewController.swift; sourceTree = "<group>"; };
 		CE39B85A2BD40DCF00FFEA76 /* recipetype.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = recipetype.xml; sourceTree = "<group>"; };
 		CE39B85C2BD6A63100FFEA76 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
 		CE39B85E2BD6ADBB00FFEA76 /* RecipeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeClass.swift; sourceTree = "<group>"; };
 		CE39B8602BD6B41300FFEA76 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
 		CE39B8612BD6B41300FFEA76 /* RecipeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeTableViewCell.xib; sourceTree = "<group>"; };
+		CE59D5922BD89DE90044C7DA /* AddRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRecipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +68,11 @@
 		CE1D52D42BD390B1003255CF /* recipe-app */ = {
 			isa = PBXGroup;
 			children = (
-				CE1D52E92BD390D1003255CF /* view */,
 				CE1D52D52BD390B1003255CF /* AppDelegate.swift */,
 				CE39B85C2BD6A63100FFEA76 /* DataParser.swift */,
 				CE1D52D72BD390B1003255CF /* SceneDelegate.swift */,
 				CE1D52D92BD390B1003255CF /* HomeViewController.swift */,
+				CE59D5922BD89DE90044C7DA /* AddRecipeViewController.swift */,
 				CE1D52DB2BD390B1003255CF /* Main.storyboard */,
 				CE1D52DE2BD390B3003255CF /* Assets.xcassets */,
 				CE1D52E02BD390B3003255CF /* LaunchScreen.storyboard */,
@@ -83,14 +83,6 @@
 				CE39B8612BD6B41300FFEA76 /* RecipeTableViewCell.xib */,
 			);
 			path = "recipe-app";
-			sourceTree = "<group>";
-		};
-		CE1D52E92BD390D1003255CF /* view */ = {
-			isa = PBXGroup;
-			children = (
-				CE39B8522BD398AA00FFEA76 /* AddRecipeViewController.swift */,
-			);
-			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,8 +158,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE59D5932BD89DE90044C7DA /* AddRecipeViewController.swift in Sources */,
 				CE39B8622BD6B41300FFEA76 /* RecipeTableViewCell.swift in Sources */,
-				CE39B8532BD398AA00FFEA76 /* AddRecipeViewController.swift in Sources */,
 				CE39B85D2BD6A63100FFEA76 /* DataParser.swift in Sources */,
 				CE39B85F2BD6ADBB00FFEA76 /* RecipeClass.swift in Sources */,
 				CE1D52DA2BD390B1003255CF /* HomeViewController.swift in Sources */,
